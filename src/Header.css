@@ -1,0 +1,28 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    /* background-color: black; */
+}
+.heading{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.heading li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+.heading li:last-child{
+    margin-right: 30px;
+}
+
+.container {
+    text-align: right;
+    background-color: rgb(161, 178, 215);
+    padding: 50px;
+    margin: 0;
+    border-radius: 0 0 15px 15px;
+}
